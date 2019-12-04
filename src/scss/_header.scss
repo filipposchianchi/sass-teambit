@@ -1,0 +1,27 @@
+.top-head {
+    width: 100%;
+    height: 50px;
+    background-color: $bg-color-header;
+    @include flex-center;
+}
+
+.nav {
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+    @include flex-center;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    font-size: 18px;
+
+    li {
+        display: inline;
+        margin-left: 20px;
+    }
+
+
+    
+}
+

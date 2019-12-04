@@ -1,0 +1,48 @@
+.second-section {
+    width: 100%;
+    background-color: $bg-color-secondary;
+    @include flex-column;
+    align-items: center;
+
+
+    h2 {
+        margin-top: 80px;
+        width: 48%;
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .wrapper {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 80px;
+
+        .colonna-1, .colonna-2, .colonna-3 {
+            width: 200px;
+            @include flex-column;
+            align-items: center;
+
+            img {
+                width: 150px;
+                height: 100px;
+                margin-bottom: 20px;
+            }
+
+            h3 {
+                width: 200px;
+            }
+        }
+    }
+
+    img {
+        width: 300px;
+        margin-bottom: 80px;
+    }
+
+    .bordo {
+        width: 80%;
+        border-bottom: grey 1px solid ;
+    }
+}

@@ -1,0 +1,36 @@
+footer {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+
+
+    .colonna-1 {
+        width: 26%;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 8%;
+        
+        span {
+            display: block;
+            width: 70%;
+        }
+    }
+
+
+    .colonna-2 {
+        width: 56%;
+        display: flex;
+        justify-content: space-between;
+
+        .menu{
+            width: calc(100% / 5);
+        }
+
+
+        li{
+            margin-top: 10px;
+        }
+    }
+
+}

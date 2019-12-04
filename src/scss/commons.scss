@@ -1,0 +1,40 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+body{
+    color: $font-color;
+}
+
+a {
+    text-decoration: none;
+    color: $font-color;
+}
+
+ul {
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+}
+
+.btn {
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: darkblue;
+    border: 1px darkblue solid;
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
