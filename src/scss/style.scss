@@ -14,3 +14,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: harmonia;
+    src: url(../../HarmoniaSansProCyr-Bold.otf);
+  }
+
+body {
+    font-family: harmonia, Verdana, Arial;
+}

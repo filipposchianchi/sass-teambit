@@ -6,20 +6,31 @@ footer {
 
 
     .colonna-1 {
-        width: 26%;
+        width: 25%;
         display: flex;
         justify-content: flex-end;
-        margin-right: 8%;
+        margin-right: 4%;
+
+        img {
+            align-self: flex-start;
+            margin-right: 15px;
+            width: 45px;
+        }
         
         span {
-            display: block;
-            width: 70%;
+            width: 82%;
+            font-size: 16px;
+            font-weight: bold;
+
+            span {
+                color: darkblue;
+            }
         }
     }
 
 
     .colonna-2 {
-        width: 56%;
+        width: 61%;
         display: flex;
         justify-content: space-between;
 
@@ -29,7 +40,8 @@ footer {
 
 
         li{
-            margin-top: 10px;
+            margin-top: 15px;
+            font-size: 13px;
         }
     }
 
